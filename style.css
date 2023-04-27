@@ -1,4 +1,5 @@
 /* VARIAVEIS */
+
 :root {
 	--color-bg-full: #FFFFFF;
 	--color-bg: #F8F8FF;
@@ -8,6 +9,7 @@
 }
 
 /* PADRÃO */
+
 body {
 	display: block;
 	font-family: "Montserrat", "sans-serif";
@@ -15,6 +17,7 @@ body {
 }
 
 /* EDIT HEADER MENU */
+
 .container-links {
 	display: grid;
 	padding: 14px;
@@ -52,7 +55,6 @@ body {
 
 .container-intro {
 	display: flex;
-	justify-content: space-evenly;
 	background-color: var(--color-bg);
 	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
 				-5px 10px 1em rgba(255, 255, 255, 0.048);
@@ -111,7 +113,52 @@ body {
 	margin: 0px 60px 0px 0px;
 }
 
+.container-img-bg-250px {
+	display: none;
+}
+
+/* START - EDIT SOBRE*/
+
+.container-sobre {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.container-img {
+	text-align: center;
+	padding: 150px;
+	background-color: var(--color-bg);
+	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
+				-5px 10px 1em rgba(255, 255, 255, 0.048);
+	border-radius: 12px;
+	margin: 10px 29px 10px 29px;
+}
+
+.container-sobre1 {
+	text-align: center;
+	padding: 80px;
+	background-color: var(--color-bg);
+	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
+				-5px 10px 1em rgba(255, 255, 255, 0.048);
+	border-radius: 12px;
+	margin: 10px 29px 10px 29px;
+}
+
+.container-sobre-h1 {
+
+	font-size: 65px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-sobre-p {
+	font-size: 20px;
+	text-align: justify;
+	color: var(--color-secundaria);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* START - EDIT MAIN PROJETOS */
+
 main {
 	margin: 30px;
 	text-align: center;
@@ -120,13 +167,6 @@ main {
 main hr {
 	margin: 100px 0px 100px 0px;
 	border: solid 0.5px #36393f6f;
-}
-
-main p {
-	padding-bottom: 10px;
-	color: var(--color-primaria);
-	font-weight: 500;
-	font-size: 12pt;
 }
 
 main h1 {
@@ -217,46 +257,6 @@ main h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-end;
-}
-
-/* START - EDIT SOBRE*/
-
-.container-sobre {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.container-img {
-	text-align: center;
-	padding: 150px;
-	background-color: var(--color-bg);
-	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
-				-5px 10px 1em rgba(255, 255, 255, 0.048);
-	border-radius: 12px;
-	margin: 10px 29px 10px 29px;
-}
-
-.container-sobre1 {
-	text-align: center;
-	padding: 80px;
-	background-color: var(--color-bg);
-	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
-				-5px 10px 1em rgba(255, 255, 255, 0.048);
-	border-radius: 12px;
-	margin: 10px 29px 10px 29px;
-}
-
-.container-sobre-h1 {
-
-	font-size: 65px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.container-sobre-p {
-	font-size: 20px;
-	text-align: justify;
-	color: var(--color-secundaria);
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* START - EDIT SKILLS*/
@@ -398,4 +398,183 @@ button:hover {
 
 footer p {
 	text-align: center;
+}
+
+/* RESPONSIVIDADE
+ * Código abaixo é responsavel por toda responsividade do site em 
+ * dispositivos menores de 800px
+ */
+
+@media screen and (max-width: 800px) {
+
+	/* EDIT HEADER MENU */
+
+	.container-links {
+		display: grid;
+		justify-content: center;
+	}
+
+	.container-menu {
+		margin: -36px 6px;
+	}
+
+	.container-links li {
+		display: block;
+    	font-size: 13px;
+    	padding: 21px 3px;
+	}
+
+	/* EDIT HEADER INTRODUÇÃO */
+
+	header {
+		display: block;
+		margin: 13px -21px 0px -21px;
+	}
+
+	.container-intro {
+		display: block;
+	}
+
+	.container-intro-1 {
+		padding: 14px;
+	}
+
+	.container-ola,
+	.container-resumo {
+		font-size: 18px;
+		text-align: center;
+		margin: 10px 17px 10px 23px;
+	}
+
+	.container-infor {
+		text-align: center;
+    	padding: 23px;
+    	font-size: 41px;	
+	}
+
+	.container-img-bg {
+		display: none;
+	}
+
+	.container-img-bg-250px {
+		display: block;
+    	margin: 0px 60px;
+	}
+
+	/* START - EDIT SOBRE*/
+
+	.container-img {
+		display: none;
+	}
+
+	.container-sobre1 {
+		display: block;
+		padding: 24px;
+	}
+
+	.container-sobre-h1 {
+		padding: 0px;
+		font-size: 41px;
+	}
+
+	.container-sobre-p {
+		font-size: 18px;
+	}
+	
+	/* START - EDIT MAIN PROJETOS */
+
+	main {
+		margin: 30px;
+		text-align: center;
+	}
+	
+	main hr {
+		margin: 0px -21px 0px -21px;
+    	border: solid 0.5px #36393f6f;
+	}
+
+	main h1 {
+		padding: 0px;
+		color: var(--color-secundaria);
+		font-size: 36pt;
+	}
+
+	.projetos {
+		display: block;
+		margin: 0px -21px 0px -21px;
+	}
+
+	.projetos img {
+		display: none;
+	}
+
+	/* START - EDIT SKILLS*/
+
+	.container-skills {
+		margin: 0px 10px 0px 10px;
+	}
+
+	.container-titulo-h1 {
+		font-size: 30px;
+	}
+
+	.icones-skills {
+		display: flex;
+		margin: 1px;
+	}
+
+	.box-1 {
+		padding: 2px;
+    	margin: 1px;
+	}
+
+	.box-1 img {
+		margin: 2px;
+    	padding: 11px;
+	}
+
+	.box-1 figcaption {
+		font-size: 10px;
+	}
+
+	.box-1 figcaption::before {
+		width: 7px;
+    	height: 7px;
+	}
+
+	/* START - EDIT CONTATO*/
+
+	.container-contato {
+		margin: 25px 10px 25px 10px;
+	}
+
+	.container-titulo-h1 {
+		font-size: 30px;
+	}
+
+	.botoes {
+		display: flex;
+		margin: 1px;
+	}
+
+	.box-2 {
+		padding: 2px;
+    	margin: 1px;
+	}
+
+	.box-2 button {
+		margin: 2px;
+    	padding: 11px;
+	}
+
+	.box-2 figcaption {
+		font-size: 10px;
+		padding-top: 4px;
+	}
+
+	.box-2 figcaption::before {
+		width: 7px;
+    	height: 7px;
+	}
+
 }
