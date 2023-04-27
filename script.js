@@ -1,12 +1,22 @@
 var linkProjetos = [
 	{
-		linkProjeto: "https://github.com/luucasviana/contador-de-dias",
+		linkProjeto: "https://listadetarefas-todolist.netlify.app/",
+		/*linkImg: "",*/
+		span: "2023",
+		title: "Lista de Tarefas",
+		subTitle: "HTML - CSS - JavaScript",
+		resumo:
+			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando CSS, HTML e JavaScript.",
+		like: 0
+	},
+	{
+		linkProjeto: "https://contador-de-dias.netlify.app/",
 		/*linkImg: "",*/
 		span: "2023",
 		title: "Contador de Dias",
 		subTitle: "HTML - CSS - JavaScript",
 		resumo:
-			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando CSS e HTML.",
+			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando CSS, HTML e JavaScript.",
 		like: 0
 	},
 	{
