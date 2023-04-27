@@ -1,9 +1,19 @@
 var linkProjetos = [
 	{
-		linkProjeto: "https://github.com/luucasviana/react-native-calculadora",
-		linkImg: "",
+		linkProjeto: "https://github.com/luucasviana/contador-de-dias",
+		/*linkImg: "",*/
 		span: "2023",
-		title: "Projeto Calculadora",
+		title: "Contador de Dias",
+		subTitle: "HTML - CSS - JavaScript",
+		resumo:
+			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando CSS e HTML.",
+		like: 0
+	},
+	{
+		linkProjeto: "https://github.com/luucasviana/react-native-calculadora",
+		/*linkImg: "",*/
+		span: "2023",
+		title: "Calculadora",
 		subTitle: "ReactNative - JavaScript - CSS",
 		resumo:
 			"Projeto produziodo para conclusão de desafio proposto por Leonardo Moura no curso de ReactNative da Cod3r Cursos, através da Udemy. O projeto tinha foco em organizar os elementos através de componentes.",
@@ -11,9 +21,9 @@ var linkProjetos = [
 	},
     {
 		linkProjeto: "https://github.com/luucasviana/react-native-campo-minado",
-		linkImg: "",
+		/*linkImg: "",*/
 		span: "2022",
-		title: "Projeto Campo Minado",
+		title: "Campo Minado",
 		subTitle: "ReactNative - JavaScript - CSS",
 		resumo:
 			"Projeto produziodo para conclusão de desafio proposto por Leonardo Moura no curso de ReactNative da Cod3r Cursos, através da Udemy. O projeto de campo minado usando React Native, CSS e JavaScript serviu para consolidar os fundamentos do Flexbox, uma ferramenta importante para criar layouts responsivos em aplicações web e móveis.",
@@ -21,19 +31,18 @@ var linkProjetos = [
 	},
     {
 		linkProjeto: "https://github.com/luucasviana/react-native-formulario",
-		linkImg: "",
+		/*linkImg: "",*/
 		span: "2022",
-		title: "Projeto Formulário",
+		title: "Formulário",
 		subTitle: "ReactNative - JavaScript - CSS",
 		resumo:
 			"Projeto produziodo para conclusão de desafio proposto por Leonardo Moura no curso de ReactNative da Cod3r Cursos, através da Udemy. O projeto tinha foco em fazer formulário em React Native, CSS e JavaScript para ajudar a desenvolver habilidades práticas em desenvolvimento móvel e front-end, além de fornecer uma compreensão mais profunda sobre formulários e validação de dados.",
 		like: 0
 	},
     {
-		linkProjeto: "https://github.com/luucasviana/react-native-contador",
-		linkImg: "",
+		/*linkImg: "",*/
 		span: "2022",
-		title: "Projeto Contador de Dias",
+		title: "Contador de Dias",
 		subTitle: "ReactNative - JavaScript - CSS",
 		resumo:
 			"Projeto produziodo por mim mesmo como forma de exercitar conhecimentos adiquiridos durante o curso de React Native. O projeto feito para dispositivos moveis utilizando ReactNative contem as linguagens de CSS e JavaScript.",
@@ -51,7 +60,7 @@ function Projetos() {
 
 		elemento += '<div class="container-projeto">';
 		elemento += '<a href="' + projeto.linkProjeto + '" target="_blanck">';
-		elemento += '<img src="' + projeto.linkImg + '" alt="' + projeto.title + '">';
+		/*elemento += '<img src="' + projeto.linkImg + '" alt="' + projeto.title + '">';*/
 		elemento += "<div>";
 		elemento += "<span>" + projeto.span + "</span>";
 		elemento += "<h1>" + projeto.title + "</h1>";
