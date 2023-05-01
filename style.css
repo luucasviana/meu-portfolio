@@ -76,7 +76,7 @@ body {
     overflow: hidden;
     animation: typewriter 2s steps(13, end) forwards,
           		blink 800ms steps(13) infinite normal;
-    border-right: 5px solid black;
+    border-right: 3px solid black;
 }
 
 @keyframes typewriter {
@@ -401,6 +401,102 @@ footer p {
 }
 
 
+/* EDIT CERTIFICADOS */
+
+#galeria > div {
+	float: left;
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.foto img {
+	display: block;
+	width: 100%;
+	background-color: var(--color-bg);
+	color: var(--color-secundaria);
+	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
+				-5px 10px 1em rgba(255, 255, 255, 0.048);
+	border-radius: 12px;
+}
+
+.detalhes {
+	display: none;
+}
+
+.detalhes a {
+	text-decoration: none;
+	cursor: pointer;
+	padding: 20px;
+	margin: 10px;
+	color: #757575;
+	background-color: var(--color-bg);
+	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
+				-1px 5px 0.8em rgba(255, 255, 255, 0.048);
+	border-radius: 12px;
+	border-width: 0px;
+	transition: all 0.2s ease-in;
+}
+  
+.detalhes a:hover {
+	color: var(--color-primaria) !important;
+}
+
+#galeria .foto:target{
+	position: fixed;
+	width: 56%;
+	top: 40px;
+	left: 22%;
+	padding: 10px;
+	background-color: var(--color-bg);
+	color: var(--color-secundaria);
+	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
+				-5px 10px 1em rgba(255, 255, 255, 0.048);
+	border-radius: 12px;
+}
+
+.foto:target .detalhes {
+	display: flex;
+    margin: 17px;
+    justify-content: center;
+	margin: 5px 0px 0px 2px;
+}
+
+.container-voltar {
+	display: grid;
+	padding: 14px;
+	background-color: var(--color-bg);
+	box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253),
+				-5px 10px 1em rgba(255, 255, 255, 0.048);
+	border-radius: 12px;
+	margin: 13px 29px 10px 8px;
+}
+
+.botao-voltar {
+	margin: -32px 0px -24px -0px;
+}
+
+.container-voltar li {
+	color: white;
+	display: inline;
+	float: right;
+	padding: 15px;
+	font-size: 16px;
+	padding-right: 0px;
+}
+  
+.container-voltar a {
+	text-decoration: none;
+	color: #757575;
+	transition: all 0.2s ease-in;
+}
+  
+.container-voltar a:hover {
+	color: var(--color-primaria) !important;
+}
+
+
+
 /* RESPONSIVIDADE
  * Código abaixo é responsavel por toda responsividade do site em 
  * dispositivos menores de 800px
@@ -576,6 +672,37 @@ footer p {
 	.box-2 figcaption::before {
 		width: 7px;
     	height: 7px;
+	}
+
+	/* EDIT CERTIFICADOS */
+
+	.container-voltar {
+		display: grid;
+		margin: 0px 26px 0px 26px;
+	}
+
+	#galeria {
+		display: grid;
+		justify-items: center;
+	}
+
+	#galeria > div {
+		float: left;
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	#galeria .foto:target {
+		position: fixed;
+		width: 96%;
+		top: 140px;
+		left: 2%;
+		padding: 13px;
+		background-color: var(--color-bg);
+		color: var(--color-secundaria);
+		box-shadow: 10px -5px 1em rgba(0, 0, 0, 0.253), -5px 10px 1em rgba(255, 255, 255, 0.048);
+		border-radius: 12px;
 	}
 
 }
