@@ -1,5 +1,25 @@
 var linkProjetos = [
 	{
+		linkProjeto: "https://costs-project.netlify.app/",
+		/*linkImg: "",*/
+		span: "2023",
+		title: "Costs de Projetos",
+		subTitle: "React.js - HTML - CSS - API com Json",
+		resumo:
+			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando React.js, CSS, HTML e API com Json.",
+		like: 0
+	},
+	{
+		linkProjeto: "https://photograph-project.netlify.app/",
+		/*linkImg: "",*/
+		span: "2023",
+		title: "Photograph Project",
+		subTitle: "HTML - CSS - JavaScript",
+		resumo:
+			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando CSS, HTML e JavaScript.",
+		like: 0
+	},
+	{
 		linkProjeto: "https://listadetarefas-todolist.netlify.app/",
 		/*linkImg: "",*/
 		span: "2023",
@@ -10,7 +30,7 @@ var linkProjetos = [
 		like: 0
 	},
 	{
-		linkProjeto: "https://contador-de-dias.netlify.app/",
+		linkProjeto: "https://github.com/luucasviana/contador-de-dias",
 		/*linkImg: "",*/
 		span: "2023",
 		title: "Contador de Dias",
