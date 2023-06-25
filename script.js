@@ -1,6 +1,6 @@
 var linkProjetos = [
 	{
-		linkProjeto: "https://costs-project.netlify.app/",
+		linkProjeto: "https://github.com/luucasviana/costs-react.js",
 		/*linkImg: "",*/
 		span: "2023",
 		title: "Costs de Projetos",
