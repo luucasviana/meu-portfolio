@@ -20,13 +20,13 @@ var linkProjetos = [
 		like: 0
 	},
 	{
-		linkProjeto: "https://listadetarefas-todolist.netlify.app/",
+		linkProjeto: "https://todo-rct.netlify.app/",
 		/*linkImg: "",*/
 		span: "2023",
-		title: "Lista de Tarefas",
-		subTitle: "HTML - CSS - JavaScript",
+		title: "To Do List",
+		subTitle: "React.js - HTML - CSS",
 		resumo:
-			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando CSS, HTML e JavaScript.",
+			"Projeto produziodo para exercitar o meu conhecimente com FrontEnd utilizando React.js, CSS e HTML",
 		like: 0
 	},
 	{
@@ -67,15 +67,6 @@ var linkProjetos = [
 		subTitle: "ReactNative - JavaScript - CSS",
 		resumo:
 			"Projeto produziodo para conclusão de desafio proposto por Leonardo Moura no curso de ReactNative da Cod3r Cursos, através da Udemy. O projeto tinha foco em fazer formulário em React Native, CSS e JavaScript para ajudar a desenvolver habilidades práticas em desenvolvimento móvel e front-end, além de fornecer uma compreensão mais profunda sobre formulários e validação de dados.",
-		like: 0
-	},
-    {
-		/*linkImg: "",*/
-		span: "2022",
-		title: "Contador de Dias",
-		subTitle: "ReactNative - JavaScript - CSS",
-		resumo:
-			"Projeto produziodo por mim mesmo como forma de exercitar conhecimentos adiquiridos durante o curso de React Native. O projeto feito para dispositivos moveis utilizando ReactNative contem as linguagens de CSS e JavaScript.",
 		like: 0
 	},
 ];

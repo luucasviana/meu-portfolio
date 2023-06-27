@@ -509,6 +509,7 @@ footer p {
 	.container-links {
 		display: grid;
 		justify-content: center;
+		margin: 13px 8px;
 	}
 
 	.container-menu {
